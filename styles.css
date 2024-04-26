@@ -1,11 +1,11 @@
-
+*{font-family: "Roboto",sans-serif;}
 .hero{
     color: white;
     background-color: #1F2937;
     display: flex;
     height: 60px;
     width: 730px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .container{
     color: white;
@@ -19,6 +19,10 @@
 .logo{
  color: #F9FAF8; 
  font-size: 24px;
+ height: 40px;
+ width: 190px;
+ margin-left: 20px;
+ margin-top: 4px;
 }
 
 .main {
@@ -28,12 +32,14 @@
     border: 2px;
     height: 100px;
     width: 300px;
+    margin-left: 2px;
 }
 .secondary{
     font-size: 18px;
     color: #E5E7EB;
     width: 380px;
     height: 50px;
+    margin-left: 4px;
 }
 
 button {
@@ -56,9 +62,11 @@ a{
 ul{
     display: flex;
     gap: 8px;
-    margin: 0;
+    margin:0;
     padding: 0;
     list-style-type: none;
+    margin-top: 4px;
+    margin-right: 10px;
 }
 .sign-up{
     color:#F9FAF8; 
@@ -67,6 +75,7 @@ ul{
     width: 80px;
     text-align: center;
     height: 20px;
+    margin-left: 4px;
 }
 .section-2{
     background-color:#F9FAF8;
@@ -84,7 +93,19 @@ ul{
     height: 80px;
     width: 80px;
     border-radius: 6px;  
-    
+    display: flex;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.a, .b, .c, .d{
+    height: 70px;
+    width: 180px;
+    text-align: center;
 }
 .section-3{
     width: 730px;
@@ -118,25 +139,43 @@ ul{
 }
 .last{
     background-color: #3882F6;
-    height: 70px;
+    height: 90px;
     width: 570px;
     border-radius: 6px;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+
 }
 .text1{
     font-weight: 800;
-    height: 10px;
-    width: 180px;
-}
-.sign.up{
-    border-radius: 4px;
-    border: 6px solid #F9FAF8;
-    height: 20px;
-    width: 80px;
+    height: 30px;
+    width: 300px;
     text-align: center;
+    align-content: center;
+    margin-top: 15px;
+    font-size: medium;
+}
+.text2{
+    height: 40px;
+    width: 450px;
+    font-size: small;
+    margin-top: 4px;
+    text-align: center;
+    align-content: center;
+}
+
+.box{
+    color:#F9FAF8; 
+    background-color: #3882F6;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    height: 15px;
+    border: 2px solid #E5E7EB;
+    margin-left: 400px;
+    margin-bottom: 30px;
 }
 .footer{
     height: 100px;
